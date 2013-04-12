@@ -1,2 +1,5 @@
 .idea
 .DS_Store
+
+/system/modules/.DS_Store
+/system/modules/dompdf/.DS_Store
