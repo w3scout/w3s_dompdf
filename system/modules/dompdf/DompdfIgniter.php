@@ -37,7 +37,7 @@
  * @author     Leo Feyer <http://www.contao.org>
  * @package    Controller
  */
-class DompdfIgniter extends Frontend
+class DompdfIgniter extends \Frontend
 {
 
 	/**
@@ -88,10 +88,9 @@ class DompdfIgniter extends Frontend
 		$strHtml .= '</html>';
 
 		// Generate DOMPDF object
-		require_once(TL_ROOT . '/system/modules/dompdf/resources/dompdf_config.inc.php');
-		$dompdf = new DOMPDF();
+        $dompdf = new \ContaoDOMPDF();
 
-		$dompdf->set_paper('a4');
+        $dompdf->set_paper('a4');
 		$dompdf->set_base_path(TL_ROOT);
 		$dompdf->load_html($strHtml);
 		$dompdf->render();
