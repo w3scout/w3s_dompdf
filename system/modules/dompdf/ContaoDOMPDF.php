@@ -9,7 +9,7 @@
 
 require_once (TL_ROOT . '/system/modules/dompdf/resources/dompdf_config.inc.php');
 
-class ContaoDOMPDF extends \Dompdf
+class ContaoDOMPDF extends \DOMPDF
 {
 
     public function __construct()

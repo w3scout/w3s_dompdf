@@ -89,7 +89,7 @@ ClassLoader::addClasses(array
     'Text_Frame_Reflower' => 'system/modules/dompdf/resources/include/text_frame_reflower.cls.php',
     'Text_Renderer' => 'system/modules/dompdf/resources/include/text_renderer.cls.php',
 
-    // Experiementiell (HTML5 Support in DOMPDF ist deaktiviert)
+    // HTML5 Support ist per config deaktiviert)
     'HTML5_Data'            => 'system/modules/dompdf/resources/lib/html5lib/Data.php',
     'HTML5_InputStream'     => 'system/modules/dompdf/resources/lib/html5lib/InputStream.php',
     'HTML5_Parser'          => 'system/modules/dompdf/resources/lib/html5lib/Parser.php',
