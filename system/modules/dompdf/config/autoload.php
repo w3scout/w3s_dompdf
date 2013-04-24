@@ -2,9 +2,9 @@
 
 /**
  * Contao Open Source CMS
- * 
+ *
  * Copyright (C) 2005-2013 Leo Feyer
- * 
+ *
  * @package Dompdf
  * @link    https://contao.org
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
@@ -16,8 +16,8 @@
  */
 ClassLoader::addClasses(array
 (
-	'ContaoDOMPDF'  => 'system/modules/dompdf/ContaoDOMPDF.php',
-	'DompdfIgniter' => 'system/modules/dompdf/DompdfIgniter.php',
+    'ContaoDOMPDF'  => 'system/modules/dompdf/ContaoDOMPDF.php',
+    'DompdfIgniter' => 'system/modules/dompdf/DompdfIgniter.php',
     'Cpdf' => 'system/modules/dompdf/resources/lib/class.pdf.php',
     'Absolute_Positioner' => 'system/modules/dompdf/resources/include/absolute_positioner.cls.php',
     'Abstract_Renderer' => 'system/modules/dompdf/resources/include/abstract_renderer.cls.php',
@@ -33,9 +33,9 @@ ClassLoader::addClasses(array
     'Cellmap' => 'system/modules/dompdf/resources/include/cellmap.cls.php',
     'CPDF_Adapter' => 'system/modules/dompdf/resources/include/cpdf_adapter.cls.php',
     'CSS_Color' => 'system/modules/dompdf/resources/include/css_color.cls.php',
-    'Dompdf' => 'system/modules/dompdf/resources/include/dompdf.cls.php',
-    'Dompdf_Exception' => 'system/modules/dompdf/resources/include/dompdf_exception.cls.php',
-    'Dompdf_Image_Exception' => 'system/modules/dompdf/resources/include/dompdf_image_exception.cls.php',
+    'DOMPDF' => 'system/modules/dompdf/resources/include/dompdf.cls.php',
+    'DOMPDF_Exception' => 'system/modules/dompdf/resources/include/dompdf_exception.cls.php',
+    'DOMPDF_Image_Exception' => 'system/modules/dompdf/resources/include/dompdf_image_exception.cls.php',
     'Fixed_Positioner' => 'system/modules/dompdf/resources/include/fixed_positioner.cls.php',
     'Font_Metrics' => 'system/modules/dompdf/resources/include/font_metrics.cls.php',
     'Frame' => 'system/modules/dompdf/resources/include/frame.cls.php',
@@ -94,6 +94,5 @@ ClassLoader::addClasses(array
     'HTML5_InputStream'     => 'system/modules/dompdf/resources/lib/html5lib/InputStream.php',
     'HTML5_Parser'          => 'system/modules/dompdf/resources/lib/html5lib/Parser.php',
     'HTML5_Tokenizer'       => 'system/modules/dompdf/resources/lib/html5lib/Tokenizer.php',
-    'HTML5_TreeBuilder'     => 'system/modules/dompdf/resources/lib/html5lib/TreeBuilder.php',
-
+    'HTML5_TreeBuilder'     => 'system/modules/dompdf/resources/lib/html5lib/TreeBuilder.php'
 ));
