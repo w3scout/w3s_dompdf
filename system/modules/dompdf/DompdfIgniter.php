@@ -46,7 +46,7 @@ class DompdfIgniter extends \Frontend
 	 * @param object
 	 * @return string
 	 */
-	protected function generatePdf($strArticle, ModuleArticle $objArticle)
+	public function generatePdf($strArticle, ModuleArticle $objArticle)
 	{
 		if (!$GLOBALS['TL_CONFIG']['useDompdf'])
 		{
