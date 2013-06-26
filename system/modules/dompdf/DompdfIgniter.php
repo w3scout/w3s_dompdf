@@ -70,7 +70,7 @@ class DompdfIgniter extends \Frontend
 
 			if (in_array('print', $arrMedia) || in_array('all', $arrMedia))
 			{
-				$strHtml .= '<link rel="stylesheet" type="text/css" href="' . $objStylesheet->name . '.css" />' . "\n";
+				$strHtml .= '<link rel="stylesheet" type="text/css" href="assets/css/' . $objStylesheet->name . '.css" />' . "\n";
 			}
 		}
 
